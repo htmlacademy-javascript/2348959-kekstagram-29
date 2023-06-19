@@ -9,7 +9,7 @@ checkStringLength ('строка', 20);
 
 function isPalindrom(rndmString) {
   const string = rndmString.replaceAll(' ', '').toLowerCase();
-  for (let i = 0; i < string.length / 2; i++ ) {
+  for (let i = 0; i < string.length / 2; i++) {
     if (string.at(i) !== string.at(-i -1)) {
       return false;
     }
